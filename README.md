@@ -88,8 +88,8 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex t1 | ex linha 2 | su 1       | --         | t2         |
+| 12   | --    | su 3       | su 2       | ex linha 2 | t2         |
 
 ## Tarefa 2 - fatia tempo com valor 10 ticks
 
@@ -107,5 +107,5 @@ continue o preenchimento da tabela abaixo, considerando que o sistema operaciona
 | 08   | --    | su 2       | ex linha 1 | --         | t3         |
 | 09   | ex t3 | pr         | su 1       | --         | t1         |
 | 10   | --    | --         | su 2       | ex linha 1 | t1         |
-| 11   | ??    | ??         | ??         | ??         | t1         |
-| 12   | ??    | ??         | ??         | ??         | t1         |
+| 11   | ex t2 | su 1       | --         | --         | t2,t3      |
+| 12   | --    | su 2       | ex linha 1 | --         | t3         |
